@@ -1,0 +1,91 @@
+.gradient2 {
+  background: #fff;
+  color: #000;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: Lato,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: left;
+  background-color: #000;
+}
+.logo-moving{
+  width: 12%;
+  height: 12%;
+  margin-top: -30px;
+}
+
+#service {
+  background-color: #fff;
+  color: #000;
+}
+
+.logo{
+  height: 10%;
+  width: 10%;
+}
+.hr{
+  color: red;
+  size: 8px;
+  width: 10%;
+}
+.portfolio-logo img{
+  width: 40%;
+  height: 40%;
+}
+
+.videoTxt{
+  margin-left: 25%;
+  margin-top: -750px;
+}
+/*
+margin-top: -525px;
+margin-left: 150px;
+
+ */
+
+.headerTxt{
+  font-size: 1.5em;
+}
+
+@media (max-width: 538px) {
+  .videoTxt{
+    margin-top: -150px;
+  }
+  .headerTxt {
+    font-size: 0.5em;
+
+  }
+  portfolio-logo img{
+
+  }
+}
+@media (max-width: 720px) {
+  .videoTxt{
+
+  }
+}
+@media (max-width: 960px) {
+  .videoTxt{
+    margin-top: -300px;
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .videoTxt{
+    margin-left: 20%;
+    margin-top: -660px;
+  }
+}
